@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" ">
+<head>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="js/angular.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/mbTabset.css">
+	<script src="js/jquery-1.10.2.min.js"></script>	
+	<script src="js/jquery.leanModal.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap_modal.js"></script>
+	<script src="js/holder.js"></script>
+	<script type="text/javascript" src="js/ui.core.min.js"></script>
+	<script type="text/javascript" src="js/jquery.metadata.js"></script>
+	<script type="text/javascript" src="js/mbTabset.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<title></title>
+
+</head>
+<body>
+	<div class="bg">
+		<div class="row" id="main_panel">
+			<div class="col-md-3 pic">				
+				<p class="intro">
+					<b>Di Huynh </b><br>
+					UT Austin 2014 <br>
+					BS in Computer Science and almost Math
+				</p>
+				<img src="img/pic.jpg" alt="..." class="img-rounded">    			
+				<div style="margin-top:10px">
+					<a href="http://www.facebook.com/di.huynh">facebook</a> 
+				</div>
+				<div><a href="http://www.linkedin.com/pub/di-huynh/46/440/51a">linkedin</a></div>
+				<div><a href="https://github.com/dihuynh">github</a></div>
+				<a rel="leanModal" href="#test">resume</a>
+				<div id="test" >
+					<iframe class="popup" src="img/Di Huynh resume.pdf" ></iframe>
+				</div>
+			</div>
+			<div class="col-md-9 pic" style="border-color: transparent; margin-top:0">
+				<div class="tabset" id="tabset1">
+					<a id="a" class="tab {content:'cont_1'}">SLAMobile</a>
+					<a id="d" class="tab {content:'cont_2'}">SDSS study case</a>
+				</div>
+				<div id="cont_1">
+					<div class="row" style="margin:0px 10px 10px 10px">
+						<img id="screen" src="img/home screen.png" />
+						<img id="screen" src="img/search screen.png" />
+						<img id="screen" src="img/details screen.png" />
+						<a rel="leanModal" href="#mike">
+							<img id="screen" src="img/mini_mike.png" />
+							<div style="text-align:right">
+								Click to read feedback
+							</div>
+						</a>
+						<div id="mike">
+							<iframe class="popup2" src="img/Mike.PNG" ></iframe>
+						</div>
+					</div>	
+					<div>
+						<h4>Hewlett-Packard</h4>
+						Austin, TX | Summer 2013<br> 
+						<li>Winner of the site-wide intern contest</li>
+						<li>Created web services and designed the JSON objects to support the <br> SLAMobile applicationin HP mobility campaign</li>
+						<li>Added and graphed features to the data analytics page</li>
+						<li><b>Skills: ASP.NET MVC, HTML, CSS, Javascript, C#</b></li>
+					</div>
+				</div>					
+				<div id="cont_2">
+					<img id="screen" src="img/sdss.jpg" />
+					<img id="screen" src="img/graph.PNG" />
+					<div>
+						<h4>University of Massachusetts at Amherst</h4>
+						Amherst, MA | Summer 2012<br> 
+						<li>Constructed a study case of the SDSS database</li>
+						<li>Experimented with indexes in MySQL</li>
+						<a rel="leanModal" href="#report">	
+							<li>Click here to read my report</li>
+						</a>
+						<div id="report" >
+							<iframe class="popup" src="img/Final_Report.pdf" ></iframe>
+						</div>
+						<li><b>Skills: GNUPlot, MySQL, Shell scripting</b></li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
