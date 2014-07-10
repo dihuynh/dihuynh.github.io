@@ -1,0 +1,20 @@
+
+@font-face {
+	font-family: Desdemona; 
+	src: url(fonts/desdemon.ttf);
+}
+
+body {
+	background-color: #65b6bf;
+	font-family: Desdemona; 
+	color: white;
+
+}
+
+.greeting {
+	font-size: 65px;
+	width: inherit;
+	vertical-align: middle;
+	margin-top: 30%;
+	text-align: center;
+}
