@@ -4,17 +4,16 @@
 	src: url(fonts/desdemon.ttf);
 }
 
-body {
+body, html{
 	background-color: #65b6bf;
 	font-family: Desdemona; 
 	color: white;
+	height: 100%;
 
 }
 
 .greeting {
 	font-size: 65px;
-	width: inherit;
-	vertical-align: middle;
-	margin-top: 30%;
+	margin-top: 10%;
 	text-align: center;
 }
