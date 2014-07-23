@@ -104,8 +104,15 @@ a:hover {
 	margin-right:10px;
 }
 
-.sayhi {
+.sayhi,
+.sayhi:hover{
 	font-family: Desdemona; 
-	font-size: 35px;
+	font-size: 40px;
+	color:white;
+	background-color: transparent;
+	border-radius:10px;
+	border-color:white;
+	border-width:2px;
 }
+
 
