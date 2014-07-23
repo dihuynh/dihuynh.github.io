@@ -5,13 +5,20 @@
 }
 
 body, html{
-	background-color: #65b6bf;
 	font-family: Desdemona; 
 	color: white;
 	height: 100%;
-
+	background: -webkit-linear-gradient(bottom, #5dbdc8, #5dbdc8 50%, #96d4db 50%, #96d4db);	
 }
 
+a {
+	color:white;
+}
+
+a:hover {
+	color:white;
+
+}
 .greeting {
 	font-size: 65px;
 	margin-top: 10%;
@@ -22,9 +29,12 @@ body, html{
 	border-radius: 15px;
 	border-style: solid;
 	border-color: white;
+	border-width: 2px;
 	width: 200px;
 	margin-right: 10px;
 	height: 200px;
+	background-color: #d8d0b9;
+
 }
 
 .framePic {
@@ -44,3 +54,58 @@ body, html{
 	display:inline-block;
 	float:none;
 }
+
+.littleFrames {
+	margin-top:8px;
+	background-color:#92cbdb;
+	padding:3px;
+	padding-top:7px;
+	padding-left:7px;
+	width:180px;
+	height:65px;
+	border-radius: 5px;
+}
+
+.littleFrame {
+	max-width: 50px;
+	max-height: 50px;
+	margin-right:3px;
+	border-radius: 5px;
+	/*border-style: solid;
+	border-color: white;
+	border-width:1px;*/
+	background-color: #d8d0b9;
+}
+
+.littleFrame.active {
+	background-color: #92cbdb;
+}
+
+.littleFramePic {
+	max-width: 350px;
+	max-height: 350px;
+	float:left;
+}
+
+.aboutPanel {
+	background-color: #c8685d;
+	border-radius: 20px;
+	height: 50%;
+	width: 80%;
+	margin:auto;
+	margin-top:10%;
+	font-family: Times New Roman;
+	font-size: 18px;
+	box-shadow:0px 5px 5px 5px #888888;
+}
+
+.aboutText {
+	padding:25px;
+	margin-right:10px;
+}
+
+.sayhi {
+	font-family: Desdemona; 
+	font-size: 35px;
+}
+
