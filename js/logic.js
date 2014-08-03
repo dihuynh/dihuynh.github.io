@@ -6,6 +6,9 @@ $(document).ready(function(){
 
 	// ------------------------- ABOUT PAGE ------------------------- //
 	$('.next-arrow').click(function(){
+		$( "#social-media" ).slideToggle( "slow", function() {
+
+		});
 	});
 
 
