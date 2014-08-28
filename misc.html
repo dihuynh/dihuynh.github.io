@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="slideShow" >
+<html>
 <head>
 	<meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -11,19 +11,13 @@
     <script src="js/logic.js"></script>
 	<title>Misc</title>
 </head>
-<body ng-controller="SlidesController">
+<body>
 	<div class="littleFrames"> 
 		<a href="about.html"><img class="littleFrame" src="img/picOutline.png" /></a>
 		<a href="code.html"><img class="littleFrame" src="img/macOutline.png" /></a>
 		<a href="misc.html"><img class="littleFrame active" src="img/outdoorOutline.png" /></a>
 	</div>
-	<div class="projectTitle">
-		Projects
-	</div>
-  <div class="aboutPanel projectPanel">
-      <div class="list-group-item" ng-repeat="slide in SlidesController.slides">
-          <h3> {{slide.description}}</h3>
-    </div>
-  </div>
+	
+
 </body>
 </html>
