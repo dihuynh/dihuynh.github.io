@@ -1,12 +1,12 @@
     
 
-    var app = angular.module('slideShow', []);
-    console.log("initialized the module");
-    app.controller('SlidesController', function(){
-        this.slides = pictures;
-    });
+    // var app = angular.module('slideShow', []);
+    // console.log("initialized the module");
+    // app.controller('SlidesController', function(){
+    //     this.slides = pictures;
+    // });
 
-    console.log("after controller constructor");
+    // console.log("after controller constructor");
     var pictures = [
     {
         description: 'I met Pentatonix',
@@ -39,4 +39,7 @@
         description: 'I love dogs',
         imgLink: 'img/j.jpg'
     }];
-    var stuff = [1,2,3,4];
+
+    function SlidesController($scope) {
+      $scope.slides = pictures;
+    }
