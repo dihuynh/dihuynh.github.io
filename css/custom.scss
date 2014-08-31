@@ -19,9 +19,10 @@ $light-blue: #96d4db;
 $dark-blue: #5dbdc8;
 $orange: #c8685d;
 $beige: #d8d0b9;
+$border: 10px;
 
 body, html{
-	font-family: Desdemona; 
+	font-family: QuaverSerif; 
 	color: white;
 	height: 100%;
 	background: -webkit-linear-gradient(bottom, $dark-blue, $dark-blue 50%, $light-blue 50%, $light-blue);	
@@ -39,6 +40,8 @@ a:hover {
 	font-size: 65px;
 	margin-top: 10%;
 	text-align: center;
+	font-family: Desdemona; 
+
 }
 
 .frame {
@@ -108,7 +111,7 @@ a:hover {
 	border-radius: 20px;
 	width: 80%;
 	margin: auto;
-	margin-top: 10%;
+	margin-top: 5em;
 	font-family: QuaverSans;
 	font-size: 18px;
 	box-shadow: 0px 5px 5px 5px #888888;
@@ -166,7 +169,7 @@ a:hover {
 	background-color: $dark-blue;
 	padding: 10px;
 	width: auto;
-	border-radius: 10px;
+	border-radius: $border;
   /*display: inline-block; */
 	border-width: 2px;
 	border-color: white;
@@ -187,3 +190,28 @@ a:hover {
 	font-size:20px;
 }
 
+.picture {
+	max-width: 500px;
+	max-height: 400px;
+	height: auto;	
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	box-shadow: 5px 5px 5px 5px #888888;
+
+}
+
+.pictureCaption {
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #9e8987;
+	padding-top: 5px;
+}
+
+.nextRandom {
+	float: right;
+	margin-right: 5px;
+}

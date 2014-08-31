@@ -8,7 +8,7 @@
   font-family: QuaverSans;
   src: url("../fonts/QuaverSans.otf"); }
 body, html {
-  font-family: Desdemona;
+  font-family: QuaverSerif;
   color: white;
   height: 100%;
   background: -webkit-linear-gradient(bottom, #5dbdc8, #5dbdc8 50%, #96d4db 50%, #96d4db); }
@@ -22,7 +22,8 @@ a:hover {
 .greeting {
   font-size: 65px;
   margin-top: 10%;
-  text-align: center; }
+  text-align: center;
+  font-family: Desdemona; }
 
 .frame {
   border-radius: 15px;
@@ -82,7 +83,7 @@ a:hover {
   border-radius: 20px;
   width: 80%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5em;
   font-family: QuaverSans;
   font-size: 18px;
   box-shadow: 0px 5px 5px 5px #888888;
@@ -149,3 +150,25 @@ a:hover {
 .title {
   font-family: QuaverSans;
   font-size: 20px; }
+
+.picture {
+  max-width: 500px;
+  max-height: 400px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  box-shadow: 5px 5px 5px 5px #888888; }
+
+.pictureCaption {
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #9e8987;
+  padding-top: 5px; }
+
+.nextRandom {
+  float: right;
+  margin-right: 5px; }
