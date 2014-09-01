@@ -171,3 +171,7 @@ a:hover {
 .nextRandom {
   float: right;
   margin-right: 5px; }
+
+.nextRandom:hover {
+  text-decoration: underline;
+  cursor: pointer; }
