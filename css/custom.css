@@ -151,6 +151,9 @@ a:hover {
   font-family: QuaverSans;
   font-size: 20px; }
 
+.slides {
+  background-color: #bcc85d; }
+
 .picture {
   max-width: 500px;
   max-height: 400px;

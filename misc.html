@@ -17,11 +17,11 @@
 		<a href="code.html"><img class="littleFrame" src="img/macOutline.png" /></a>
 		<a href="misc.html"><img class="littleFrame active" src="img/outdoorOutline.png" /></a>
 	</div>
-	<div class="aboutPanel" ng-app ng-controller="SlidesController">
+	<div class="aboutPanel slides" ng-app ng-controller="SlidesController">
 		<img class="picture" ng-src="{{pickRandom.imgLink}}" /> 
 		<div class="pictureCaption"> 
 			{{ pickRandom.description }}		
-			<span class="nextRandom"> Next </span>
+			<span class="nextRandom" id="nextButton"> Next </span>
 		</div>
 	</div>
 </body>
