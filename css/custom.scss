@@ -15,17 +15,18 @@
 	src: url('../fonts/QuaverSans.otf');
 }
 
-$light-blue: #96d4db;
-$dark-blue: #5dbdc8;
-$orange: #c8685d;
-$beige: #d8d0b9;
+$light-canvas: white;
+$darkCanvas: #e0e0e0;
+$oppositeObjectBackground: #ffb3cf;
+$objectBackground: #ade1eb;
 $border: 10px;
+$textColor: #2f2f2f;
 
 body, html{
 	font-family: QuaverSerif; 
-	color: white;
+	color: $textColor;
 	height: 100%;
-	background: -webkit-linear-gradient(bottom, $dark-blue, $dark-blue 50%, $light-blue 50%, $light-blue);	
+	background: -webkit-linear-gradient(bottom, $darkCanvas, $darkCanvas 50%, $light-canvas 50%, $light-canvas);	
 }
 
 a {
@@ -41,7 +42,6 @@ a:hover {
 	margin-top: 10%;
 	text-align: center;
 	font-family: Desdemona; 
-
 }
 
 .frame {
@@ -52,7 +52,7 @@ a:hover {
 	width: 200px;
 	margin-right: 10px;
 	height: 210px;
-	background-color: $beige;
+	background-color: $objectBackground;
 }
 
 .framePic {
@@ -76,7 +76,7 @@ a:hover {
 
 .littleFrames {
 	margin-top: 8px;
-	background-color: #92cbdb;
+	background-color: $light-canvas;
 	padding: 3px;
 	padding-top: 7px;
 	padding-left: 7px;
@@ -93,11 +93,11 @@ a:hover {
 	/*border-style: solid;
 	border-color: white;
 	border-width: 1px;*/
-	background-color: $beige;
+	background-color: $objectBackground;
 }
 
 .littleFrame.active {
-	background-color: #92cbdb;
+	background-color: $light-canvas;
 }
 
 .littleFramePic {
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .aboutPanel {
-	background-color: $orange;
+	background-color: $oppositeObjectBackground;
 	border-radius: 20px;
 	width: 80%;
 	margin: auto;
@@ -147,7 +147,7 @@ a:hover {
 
 .next-arrow {
 	float: right;
-	background-color: $orange;
+	background-color: $oppositeObjectBackground;
 	padding: 10px;
 	border-radius: 20px;
 	font-size: 20px;
@@ -166,13 +166,13 @@ a:hover {
 
 #social-media{
   display: none;
-	background-color: $dark-blue;
+	background-color: $objectBackground;
 	padding: 10px;
 	width: auto;
 	border-radius: $border;
   /*display: inline-block; */
-	border-width: 2px;
-	border-color: white;
+	border-width: 1px;
+	border-color: black;
 	border-style: solid;
   position: absolute;
   top: 40%;
@@ -183,6 +183,10 @@ a:hover {
 	height: 80px;
 	margin-right: 7px;
 	margin-bottom: 5px;
+	border-style: dotted;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
 }
 
 .title {
@@ -191,7 +195,7 @@ a:hover {
 }
 
 .slides {
-	background-color: #bcc85d;
+	background-color: $oppositeObjectBackground;
 }
 
 .picture {
@@ -209,7 +213,7 @@ a:hover {
 	letter-spacing: 2px;
 	font-size: 20px;
 	text-align: center;
-	background-color: #9e8987;
+	background-color: $objectBackground;
 	padding-top: 5px;
 }
 

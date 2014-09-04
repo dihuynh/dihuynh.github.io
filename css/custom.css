@@ -9,9 +9,9 @@
   src: url("../fonts/QuaverSans.otf"); }
 body, html {
   font-family: QuaverSerif;
-  color: white;
+  color: #2f2f2f;
   height: 100%;
-  background: -webkit-linear-gradient(bottom, #5dbdc8, #5dbdc8 50%, #96d4db 50%, #96d4db); }
+  background: -webkit-linear-gradient(bottom, #e0e0e0, #e0e0e0 50%, white 50%, white); }
 
 a {
   color: white; }
@@ -33,7 +33,7 @@ a:hover {
   width: 200px;
   margin-right: 10px;
   height: 210px;
-  background-color: #d8d0b9; }
+  background-color: #ade1eb; }
 
 .framePic {
   width: auto;
@@ -52,7 +52,7 @@ a:hover {
 
 .littleFrames {
   margin-top: 8px;
-  background-color: #92cbdb;
+  background-color: white;
   padding: 3px;
   padding-top: 7px;
   padding-left: 7px;
@@ -68,10 +68,10 @@ a:hover {
   /*border-style: solid;
   border-color: white;
   border-width: 1px;*/
-  background-color: #d8d0b9; }
+  background-color: #ade1eb; }
 
 .littleFrame.active {
-  background-color: #92cbdb; }
+  background-color: white; }
 
 .littleFramePic {
   max-width: 350px;
@@ -79,7 +79,7 @@ a:hover {
   float: left; }
 
 .aboutPanel {
-  background-color: #c8685d;
+  background-color: #ffb3cf;
   border-radius: 20px;
   width: 80%;
   margin: auto;
@@ -114,7 +114,7 @@ a:hover {
 
 .next-arrow {
   float: right;
-  background-color: #c8685d;
+  background-color: #ffb3cf;
   padding: 10px;
   border-radius: 20px;
   font-size: 20px;
@@ -130,13 +130,13 @@ a:hover {
 
 #social-media {
   display: none;
-  background-color: #5dbdc8;
+  background-color: #ade1eb;
   padding: 10px;
   width: auto;
   border-radius: 10px;
   /*display: inline-block; */
-  border-width: 2px;
-  border-color: white;
+  border-width: 1px;
+  border-color: black;
   border-style: solid;
   position: absolute;
   top: 40%;
@@ -145,14 +145,18 @@ a:hover {
 .stalker-icons {
   height: 80px;
   margin-right: 7px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  border-style: dotted;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px; }
 
 .title {
   font-family: QuaverSans;
   font-size: 20px; }
 
 .slides {
-  background-color: #bcc85d; }
+  background-color: #ffb3cf; }
 
 .picture {
   max-width: 500px;
@@ -168,7 +172,7 @@ a:hover {
   letter-spacing: 2px;
   font-size: 20px;
   text-align: center;
-  background-color: #9e8987;
+  background-color: #ade1eb;
   padding-top: 5px; }
 
 .nextRandom {
