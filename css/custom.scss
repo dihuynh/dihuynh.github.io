@@ -15,7 +15,7 @@
 	src: url('../fonts/QuaverSans.otf');
 }
 
-$light-canvas: white;
+$lightCanvas: white;
 $darkCanvas: #e0e0e0;
 $oppositeObjectBackground: #ffb3cf;
 $objectBackground: #ade1eb;
@@ -26,20 +26,27 @@ body, html{
 	font-family: QuaverSerif; 
 	color: $textColor;
 	height: 100%;
-	background: -webkit-linear-gradient(bottom, $darkCanvas, $darkCanvas 50%, $light-canvas 50%, $light-canvas);	
+	background-color: $lightCanvas;
+	/*background: -webkit-linear-gradient(bottom, $darkCanvas, $darkCanvas 50%, $light-canvas 50%, $light-canvas);	*/
+}
+
+.bg {
+	background: url("../img/bg.png") repeat center center;
+	height:100%;
 }
 
 a {
-	color:white;
+	color:black;
 }
 
 a:hover {
-	color:white;
+	color:black;
+	text-decoration: underline;
 
 }
 .greeting {
 	font-size: 65px;
-	margin-top: 10%;
+	padding-top: 10%;
 	text-align: center;
 	font-family: Desdemona; 
 }
@@ -76,7 +83,7 @@ a:hover {
 
 .littleFrames {
 	margin-top: 8px;
-	background-color: $light-canvas;
+	background-color: $lightCanvas;
 	padding: 3px;
 	padding-top: 7px;
 	padding-left: 7px;
@@ -97,7 +104,7 @@ a:hover {
 }
 
 .littleFrame.active {
-	background-color: $light-canvas;
+	background-color: $lightCanvas;
 }
 
 .littleFramePic {
@@ -107,15 +114,17 @@ a:hover {
 }
 
 .aboutPanel {
-	background-color: $oppositeObjectBackground;
+	background-color: white;
 	border-radius: 20px;
 	width: 80%;
 	margin: auto;
 	margin-top: 5em;
 	font-family: QuaverSans;
 	font-size: 18px;
-	box-shadow: 0px 5px 5px 5px #888888;
 	letter-spacing: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
 }
 
 .projectPanel {
@@ -195,7 +204,7 @@ a:hover {
 }
 
 .slides {
-	background-color: $oppositeObjectBackground;
+	background-color: white;
 }
 
 .picture {
@@ -213,7 +222,7 @@ a:hover {
 	letter-spacing: 2px;
 	font-size: 20px;
 	text-align: center;
-	background-color: $objectBackground;
+	/*background-color: $darkCanvas;*/
 	padding-top: 5px;
 }
 

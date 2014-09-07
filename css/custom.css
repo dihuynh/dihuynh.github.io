@@ -11,17 +11,23 @@ body, html {
   font-family: QuaverSerif;
   color: #2f2f2f;
   height: 100%;
-  background: -webkit-linear-gradient(bottom, #e0e0e0, #e0e0e0 50%, white 50%, white); }
+  background-color: white;
+  /*background: -webkit-linear-gradient(bottom, $darkCanvas, $darkCanvas 50%, $light-canvas 50%, $light-canvas);	*/ }
+
+.bg {
+  background: url("../img/bg.png") repeat center center;
+  height: 100%; }
 
 a {
-  color: white; }
+  color: black; }
 
 a:hover {
-  color: white; }
+  color: black;
+  text-decoration: underline; }
 
 .greeting {
   font-size: 65px;
-  margin-top: 10%;
+  padding-top: 10%;
   text-align: center;
   font-family: Desdemona; }
 
@@ -79,15 +85,17 @@ a:hover {
   float: left; }
 
 .aboutPanel {
-  background-color: #ffb3cf;
+  background-color: white;
   border-radius: 20px;
   width: 80%;
   margin: auto;
   margin-top: 5em;
   font-family: QuaverSans;
   font-size: 18px;
-  box-shadow: 0px 5px 5px 5px #888888;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black; }
 
 .projectPanel {
   height: auto; }
@@ -156,7 +164,7 @@ a:hover {
   font-size: 20px; }
 
 .slides {
-  background-color: #ffb3cf; }
+  background-color: white; }
 
 .picture {
   max-width: 500px;
@@ -172,7 +180,7 @@ a:hover {
   letter-spacing: 2px;
   font-size: 20px;
   text-align: center;
-  background-color: #ade1eb;
+  /*background-color: $darkCanvas;*/
   padding-top: 5px; }
 
 .nextRandom {
