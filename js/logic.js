@@ -15,48 +15,40 @@ $(document).ready(function(){
   $('#nextButton').click(function(){
     location.reload();
   });
-  // ------------------------- MISC PAGE ------------------------- //
-  // var app = angular.module('slideShow', []);
-  // // console.log("initialized the module");
-  // app.controller('SlidesController', ['$scope', function($scope){
-  //     $scope.slides = pictures;
-  // }]);
-
-  // console.log("after controller constructor");
-
 });
-var pictures = [
-{
-  description: 'I met Pentatonix',
-  imgLink: 'img/f.jpg'
-}, {
-  description: 'I met Jon Cozart',
-  imgLink: 'img/e.jpg'
-}, {
-  description: 'I told Emeli Sande her show was amazing and she said thanks',    
-  imgLink: 'img/g.jpg'
-}, {
-  description: 'I jumped off a cliff',
-  imgLink: 'img/d.jpg'
-}, {
-  description: 'I love coffee',
-  imgLink: 'img/a.jpg'
-},{
-  description: 'I\'m in an unofficial ukulele trio',
-  imgLink: 'img/c.jpg'
-},{
-  description: 'I met Jeremy Lin',
-  imgLink: 'img/b.jpg'
-},{
-  description: 'I attended a talk by Pooja Sankar',
-  imgLink: 'img/h.jpg'
-},{
-  description: 'I met Chandler Parsons',
-  imgLink: 'img/i.jpg'
-},{
-  description: 'I love dogs',
-  imgLink: 'img/j.jpg'
-}];
+
+// ------------------------- MISC PAGE ------------------------- //
+var pictures = [{
+      description: 'I met Pentatonix',
+      imgLink: 'img/f.jpg'
+    }, {
+      description: 'I met Jon Cozart',
+      imgLink: 'img/e.jpg'
+    }, {
+      description: 'I told Emeli Sande her show was amazing and she said thanks',    
+      imgLink: 'img/g.jpg'
+    }, {
+      description: 'I jumped off a cliff',
+      imgLink: 'img/d.jpg'
+    }, {
+      description: 'I love coffee',
+      imgLink: 'img/a.jpg'
+    },{
+      description: 'I\'m in an unofficial ukulele trio',
+      imgLink: 'img/c.jpg'
+    },{
+      description: 'I met Jeremy Lin',
+      imgLink: 'img/b.jpg'
+    },{
+      description: 'I attended a talk by Pooja Sankar',
+      imgLink: 'img/h.jpg'
+    },{
+      description: 'I met Chandler Parsons',
+      imgLink: 'img/i.jpg'
+    },{
+      description: 'I love dogs',
+      imgLink: 'img/j.jpg'
+    }];
 
   // return the list element at a random index
   function pickRandom(){
@@ -70,3 +62,37 @@ var pictures = [
     $scope.pickRandom = pickRandom();
   }
 
+// ------------------------- CODE PAGE ------------------------- //
+var projects = [{
+      title: 'SLAM Mobile',
+      location: 'Austin, Texas',
+      company: 'Hewlett-Packard',
+      description: 'Winner of the site-wide intern contest',
+      images: ['img/slam1.png','img/slam2.png','img/slam3.png'],
+      technology: ['HTML', 'CSS', 'JS', 'ASP.NET MVC'],
+      type: 'Mobile'
+    },{
+      title: 'NDVH Quizzes',
+      location: 'Austin, Texas',
+      company: 'Austin Civic Hackathon',
+      description: 'Converted Relationship Quizzes on the ndvh website from flash to javascript. This allows quizzes to be viewable on mobile devices, and it allows the ndvh to collect data from these quizzes to better serve their audience',
+      images: ['img/ndvh1.png','img/ndvh2.png','img/ndvh3.png'],
+      technology: ['HTML', 'CSS', 'JS', 'Knockout JS'],
+      type: 'Mobile'
+    },{
+      title: 'World Crisis Database',
+      location: 'Austin, Texas',
+      company: 'University of Texas at Austin',
+      description: 'Project for Software Engineering',
+      images: ['img/wcdb1.png','img/wcdb2.png','img/wcdb3.png'],
+      technology: ['HTML', 'CSS', 'JS', 'Django', 'MySQL', 'Python'],
+      type: 'Web Development'
+    }, {
+      title:
+      location:
+      company:
+      description:
+      images:
+      technology:
+      type:
+    }];
