@@ -70,7 +70,8 @@ var projects = [{
       description: 'Winner of the site-wide intern contest',
       images: ['img/slam1.png','img/slam2.png','img/slam3.png'],
       technology: ['HTML', 'CSS', 'JS', 'ASP.NET MVC'],
-      type: 'Mobile'
+      type: 'Mobile',
+      duration: 'Jun 2013 - Aug 2013'
     },{
       title: 'NDVH Quizzes',
       location: 'Austin, Texas',
@@ -78,7 +79,8 @@ var projects = [{
       description: 'Converted Relationship Quizzes on the ndvh website from flash to javascript. This allows quizzes to be viewable on mobile devices, and it allows the ndvh to collect data from these quizzes to better serve their audience',
       images: ['img/ndvh1.png','img/ndvh2.png','img/ndvh3.png'],
       technology: ['HTML', 'CSS', 'JS', 'Knockout JS'],
-      type: 'Mobile'
+      type: 'Mobile',
+      duration: '5/29/2014 - 6/1/2014'
     },{
       title: 'World Crisis Database',
       location: 'Austin, Texas',
@@ -86,13 +88,15 @@ var projects = [{
       description: 'Project for Software Engineering',
       images: ['img/wcdb1.png','img/wcdb2.png','img/wcdb3.png'],
       technology: ['HTML', 'CSS', 'JS', 'Django', 'MySQL', 'Python'],
-      type: 'Web Development'
+      type: 'Web Development',
+      duration: 'Aug 2013 - Dec 2013'
     }, {
-      title:
-      location:
-      company:
-      description:
-      images:
-      technology:
-      type:
+      title: 'Experimenting with MySQL Indexes',
+      location: 'Amherst, Massachusetts',
+      company: 'University of Massachusetts at Amherst',
+      description: 'Constructed a study case of MySQL indexes using the Sloan Digital Sky Survey',
+      images: ['img/sdss1.png', 'img/sdss2.png'],
+      technology: ['MySQL', 'Shell'],
+      type: 'Research',
+      duration: 'Jun 2012 - Aug 2012'
     }];
