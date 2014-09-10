@@ -4,7 +4,6 @@ $(document).ready(function(){
   // ------------------------- SPLASH PAGE ------------------------- //
   $('.greeting').addClass('animated fadeInRight');
 
-
   // ------------------------- ABOUT PAGE ------------------------- //
   $('.next-arrow').click(function(){
     var options = {direction: 'right', easing:'linear'};
@@ -100,3 +99,7 @@ var projects = [{
       type: 'Research',
       duration: 'Jun 2012 - Aug 2012'
     }];
+
+ function ProjectsController($scope) {
+    $scope.projects = projects;
+  }
