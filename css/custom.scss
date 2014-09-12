@@ -15,10 +15,10 @@
 	src: url('../fonts/QuaverSans.otf');
 }
 
-$lightCanvas: white;
+$light-canvas: white;
 $darkCanvas: #e0e0e0;
-$oppositeObjectBackground: #ffb3cf;
-$objectBackground: #ade1eb;
+$opposite-object-bg: #ffb3cf;
+$object-background: #ade1eb;
 $border: 10px;
 $textColor: #2f2f2f;
 
@@ -26,7 +26,7 @@ body, html{
 	font-family: QuaverSerif; 
 	color: $textColor;
 	height: 100%;
-	background-color: $lightCanvas;
+	background-color: $light-canvas;
 	/*background: -webkit-linear-gradient(bottom, $darkCanvas, $darkCanvas 50%, $light-canvas 50%, $light-canvas);	*/
 }
 
@@ -59,7 +59,7 @@ a:hover {
 	width: 200px;
 	margin-right: 10px;
 	height: 210px;
-	background-color: $objectBackground;
+	background-color: $object-background;
 }
 
 .framePic {
@@ -81,9 +81,9 @@ a:hover {
 	float: none;
 }
 
-.littleFrames {
+.little-frames {
 	margin-top: 8px;
-	background-color: $lightCanvas;
+	background-color: $light-canvas;
 	padding: 3px;
 	padding-top: 7px;
 	padding-left: 7px;
@@ -92,7 +92,7 @@ a:hover {
 	border-radius: 5px;
 }
 
-.littleFrame {
+.little-frame {
 	max-width: 50px;
 	max-height: 50px;
 	margin-right:3px;
@@ -100,20 +100,20 @@ a:hover {
 	/*border-style: solid;
 	border-color: white;
 	border-width: 1px;*/
-	background-color: $objectBackground;
+	background-color: $object-background;
 }
 
-.littleFrame.active {
-	background-color: $lightCanvas;
+.little-frame.active {
+	background-color: $light-canvas;
 }
 
-.littleFramePic {
+.little-frame-pic {
 	max-width: 350px;
 	max-height: 350px;
 	float: left;
 }
 
-.aboutPanel {
+.about-panel {
 	background-color: white;
 	border-radius: 10px;
 	width: 80%;
@@ -131,7 +131,7 @@ a:hover {
 	height: auto;
 }
 
-.projectTitle{
+.project-page-title{
 	font-family: QuaverSans;
 	font-size: 40px;
 	text-decoration: underline;
@@ -156,7 +156,7 @@ a:hover {
 
 .next-arrow {
 	float: right;
-	background-color: $oppositeObjectBackground;
+	background-color: $opposite-object-bg;
 	padding: 10px;
 	border-radius: 20px;
 	font-size: 20px;
@@ -175,7 +175,7 @@ a:hover {
 
 #social-media{
   display: none;
-	background-color: $objectBackground;
+	background-color: $object-background;
 	padding: 10px;
 	width: auto;
 	border-radius: $border;
@@ -235,3 +235,5 @@ a:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+

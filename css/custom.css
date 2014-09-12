@@ -56,7 +56,7 @@ a:hover {
   display: inline-block;
   float: none; }
 
-.littleFrames {
+.little-frames {
   margin-top: 8px;
   background-color: white;
   padding: 3px;
@@ -66,7 +66,7 @@ a:hover {
   height: 65px;
   border-radius: 5px; }
 
-.littleFrame {
+.little-frame {
   max-width: 50px;
   max-height: 50px;
   margin-right: 3px;
@@ -76,15 +76,15 @@ a:hover {
   border-width: 1px;*/
   background-color: #ade1eb; }
 
-.littleFrame.active {
+.little-frame.active {
   background-color: white; }
 
-.littleFramePic {
+.little-frame-pic {
   max-width: 350px;
   max-height: 350px;
   float: left; }
 
-.aboutPanel {
+.about-panel {
   background-color: white;
   border-radius: 10px;
   width: 80%;
@@ -100,7 +100,7 @@ a:hover {
 .projectPanel {
   height: auto; }
 
-.projectTitle {
+.project-page-title {
   font-family: QuaverSans;
   font-size: 40px;
   text-decoration: underline;

@@ -13,18 +13,25 @@
     <title>Portfolio</title>
 </head>
 <body class="bg">	
-	<div class="littleFrames"> 
-		<a href="about.html"><img class="littleFrame " src="img/picOutline.png" /></a>
-		<a href="code.html"><img class="littleFrame active" src="img/macOutline.png" /></a>
-		<a href="misc.html"><img class="littleFrame " src="img/outdoorOutline.png" /></a>
+	<div class="little-frames"> 
+		<a href="about.html"><img class="little-frame " src="img/picOutline.png" /></a>
+		<a href="code.html"><img class="little-frame active" src="img/macOutline.png" /></a>
+		<a href="misc.html"><img class="little-frame " src="img/outdoorOutline.png" /></a>
 	</div>
-	<div class="projectTitle">
+	<div class="project-page-title">
 		Projects
     </div>
 
     <div ng-app ng-controller="ProjectsController">
-        <div ng-repeat="project in projects">
-            {{project.title}}
+        <div class="project-container" ng-repeat="project in projects">
+            <div class="project-technology">
+            </div>
+            <div class="project-images-container">
+            </div>
+            <div class="project-title">
+                {{project.title}}
+            </div>
+
         </div> 
     </div>
 
