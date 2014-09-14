@@ -7,6 +7,9 @@
 @font-face {
   font-family: QuaverSans;
   src: url("../fonts/QuaverSans.otf"); }
+@font-face {
+  font-family: Poplar;
+  src: url("../fonts/PoplarStd.otf"); }
 body, html {
   font-family: QuaverSerif;
   color: #2f2f2f;
@@ -193,11 +196,35 @@ a:hover {
   cursor: pointer; }
 
 .project-container {
-  height: 250px;
+  height: auto;
   width: 80%;
   margin: auto;
   display: block;
-  background-color: pink;
+  background-color: #e1ebad;
   border-radius: 15px;
-  margin-bottom: 5px;
-  padding: 10px; }
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 20px; }
+
+.project-technology {
+  margin-right: 10px;
+  font-weight: bold; }
+
+.project-images-container {
+  width: auto;
+  overflow: hidden;
+  float: right;
+  max-height: 200px;
+  height: auto; }
+
+.project-images-container img {
+  max-width: 150px;
+  width: auto;
+  margin-right: 10px; }
+
+.project-title {
+  font-family: Poplar;
+  font-size: 2em;
+  letter-spacing: 8px;
+  color: gray;
+  opacity: .5; }
