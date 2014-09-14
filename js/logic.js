@@ -63,7 +63,11 @@ var pictures = [{
 
 // ------------------------- CODE PAGE ------------------------- //
 var projects = [{
+<<<<<<< HEAD
       title: 'NDVH QUIZZES',
+=======
+      title: 'NDVH Quizzes',
+>>>>>>> 6abe7d78248f9e65778d76774297b95bb1054f17
       location: 'Austin, Texas',
       company: 'Austin Civic Hackathon',
       description: 'Converted Relationship Quizzes on the ndvh website from flash to javascript. This allows quizzes to be viewable on mobile devices, and the ndvh to collect data from these quizzes to better serve their audience',
@@ -74,6 +78,18 @@ var projects = [{
     },{
       title: 'SLAM MOBILE',
       location: 'Austin, Texas',
+<<<<<<< HEAD
+=======
+      company: 'University of Texas at Austin',
+      description: 'Project for Software Engineering',
+      images: ['img/wcdb1.png','img/wcdb2.png','img/wcdb3.png'],
+      technology: ['HTML', 'CSS', 'JS', 'Django', 'MySQL', 'Python'],
+      type: 'Web Development',
+      duration: 'Aug 2013 - Dec 2013'
+    },{
+      title: 'SLAM Mobile',
+      location: 'Austin, Texas',
+>>>>>>> 6abe7d78248f9e65778d76774297b95bb1054f17
       company: 'Hewlett-Packard',
       description: 'Winner of the site-wide intern contest',
       images: ['img/slam1.png','img/slam2.png','img/slam3.png'],
@@ -81,7 +97,11 @@ var projects = [{
       type: 'Mobile',
       duration: 'Jun 2013 - Aug 2013'
     },{
+<<<<<<< HEAD
       title: 'MySQL INDEXES',
+=======
+      title: 'Experimenting with MySQL Indexes',
+>>>>>>> 6abe7d78248f9e65778d76774297b95bb1054f17
       location: 'Amherst, Massachusetts',
       company: 'University of Massachusetts at Amherst',
       description: 'Constructed a study case of MySQL indexes using the Sloan Digital Sky Survey',

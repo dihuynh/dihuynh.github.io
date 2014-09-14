@@ -24,13 +24,17 @@
 
     <div ng-app ng-controller="ProjectsController">
         <div class="project-container" ng-repeat="project in projects">
-        <div class="project-images-container" ng-repeat="image in project.images">
+            <div class="project-images-container" ng-repeat="image in project.images">
                 <span class="project-image">
                     <img ng-src="{{image}}" />  
                 </span>
             </div>
             <div class="project-description">
                 {{project.description}}
+
+                <div class="project-technology" ng-repeat="tech in project.technology">
+                    {{tech}}
+                </div>
             </div>
             <br /> Technology used: <br /> 
             <span class="project-technology" ng-repeat="tech in project.technology">

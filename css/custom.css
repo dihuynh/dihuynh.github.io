@@ -208,7 +208,9 @@ a:hover {
 
 .project-technology {
   margin-right: 10px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 10px; }
 
 .project-images-container {
   width: auto;
