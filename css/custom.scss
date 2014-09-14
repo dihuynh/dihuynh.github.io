@@ -21,6 +21,7 @@ $opposite-object-bg: #ffb3cf;
 $object-background: #ade1eb;
 $border: 10px;
 $textColor: #2f2f2f;
+$project-tile-main-color: pink ;
 
 body, html{
 	font-family: QuaverSerif; 
@@ -135,8 +136,9 @@ a:hover {
 	font-family: QuaverSans;
 	font-size: 40px;
 	text-decoration: underline;
-	float: right;
 	margin-right: 5%;
+    display: block;
+    text-align: right;
 }
 
 .aboutText {
@@ -236,4 +238,26 @@ a:hover {
 	cursor: pointer;
 }
 
+.project-container {
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    display: block;
+    background-color: $project-tile-main-color;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.project-technology {
+}
+
+.project-description {
+}
+
+.project-images-container {
+}
+
+.project-title {
+}
 

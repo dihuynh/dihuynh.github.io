@@ -24,9 +24,15 @@
 
     <div ng-app ng-controller="ProjectsController">
         <div class="project-container" ng-repeat="project in projects">
-            <div class="project-technology">
+
+            <div class="project-technology" ng-repeat="tech in project.technology">
+                {{tech}}
+            </div>
+            <div class="project-description">
+                {{project.description}}
             </div>
             <div class="project-images-container">
+
             </div>
             <div class="project-title">
                 {{project.title}}
