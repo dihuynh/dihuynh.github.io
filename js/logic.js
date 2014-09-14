@@ -63,15 +63,6 @@ var pictures = [{
 
 // ------------------------- CODE PAGE ------------------------- //
 var projects = [{
-      title: 'SLAM Mobile',
-      location: 'Austin, Texas',
-      company: 'Hewlett-Packard',
-      description: 'Winner of the site-wide intern contest',
-      images: ['img/slam1.png','img/slam2.png','img/slam3.png'],
-      technology: ['HTML', 'CSS', 'JS', 'ASP.NET MVC'],
-      type: 'Mobile',
-      duration: 'Jun 2013 - Aug 2013'
-    },{
       title: 'NDVH Quizzes',
       location: 'Austin, Texas',
       company: 'Austin Civic Hackathon',
@@ -89,7 +80,16 @@ var projects = [{
       technology: ['HTML', 'CSS', 'JS', 'Django', 'MySQL', 'Python'],
       type: 'Web Development',
       duration: 'Aug 2013 - Dec 2013'
-    }, {
+    },{
+      title: 'SLAM Mobile',
+      location: 'Austin, Texas',
+      company: 'Hewlett-Packard',
+      description: 'Winner of the site-wide intern contest',
+      images: ['img/slam1.png','img/slam2.png','img/slam3.png'],
+      technology: ['HTML', 'CSS', 'JS', 'ASP.NET MVC'],
+      type: 'Mobile',
+      duration: 'Jun 2013 - Aug 2013'
+    },{
       title: 'Experimenting with MySQL Indexes',
       location: 'Amherst, Massachusetts',
       company: 'University of Massachusetts at Amherst',
