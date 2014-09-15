@@ -199,20 +199,25 @@ a:hover {
 
 .project-container {
   height: auto;
+  min-height: 250px;
   width: 80%;
   margin: auto;
   display: block;
   background-color: #e1ebad;
   border-radius: 15px;
   margin-bottom: 10px;
-  padding: 15px;
-  font-size: 20px; }
+  padding: 15px; }
 
 .project-technology {
   margin-right: 10px;
   font-weight: bold;
   margin-bottom: 5px;
-  padding: 10px; }
+  padding: 10px;
+  font-size: 20px; }
+
+.project-description {
+  font-size: 17px;
+  letter-spacing: 1px; }
 
 .project-images-container {
   width: auto;
@@ -220,6 +225,7 @@ a:hover {
   overflow: hidden;
   float: right;
   max-height: 200px;
+  min-height: 200px;
   height: auto; }
 
 .project-images-container img {
@@ -229,7 +235,7 @@ a:hover {
 
 .project-title {
   font-family: Poplar;
-  font-size: 2em;
+  font-size: 40px;
   letter-spacing: 8px;
   color: gray;
   opacity: .5; }

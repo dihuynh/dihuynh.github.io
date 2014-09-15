@@ -12,16 +12,19 @@
 	<title>Misc</title>
 </head>
 <body class="bg">
-	<div class="littleFrames"> 
-		<a href="about.html"><img class="littleFrame" src="img/picOutline.png" /></a>
-		<a href="code.html"><img class="littleFrame" src="img/macOutline.png" /></a>
-		<a href="misc.html"><img class="littleFrame active" src="img/outdoorOutline.png" /></a>
+	<div class="little-frames"> 
+		<a href="about.html"><img class="little-frame" src="img/picOutline.png" /></a>
+		<a href="code.html"><img class="little-frame" src="img/macOutline.png" /></a>
+		<a href="misc.html"><img class="little-frame active" src="img/outdoorOutline.png" /></a>
 	</div>
-	<div class="aboutPanel slides" ng-app ng-controller="SlidesController">
+	<div class="page-title">
+		Miscellaneous 
+	</div>
+	<div class="about-panel slides" ng-app ng-controller="SlidesController">
 		<img class="picture" ng-src="{{pickRandom.imgLink}}" /> 
-		<div class="pictureCaption"> 
+		<div class="picture-caption"> 
 			{{ pickRandom.description }}		
-			<span class="nextRandom" id="nextButton"> Next </span>
+			<span class="next-random" id="nextButton"> Next </span>
 		</div>
 	</div>
 </body>
