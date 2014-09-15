@@ -44,12 +44,12 @@ a:hover {
   height: 210px;
   background-color: #ade1eb; }
 
-.framePic {
+.frame-pic {
   width: auto;
   max-height: 200px;
   max-width: 180px; }
 
-.framePic:hover {
+.frame-pic:hover {
   cursor: pointer; }
 
 .row-centered {
@@ -92,7 +92,7 @@ a:hover {
   border-radius: 10px;
   width: 80%;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 2em;
   font-family: QuaverSans;
   font-size: 18px;
   letter-spacing: 2px;
@@ -100,10 +100,10 @@ a:hover {
   border-style: solid;
   border-color: black; }
 
-.projectPanel {
+.project-panel {
   height: auto; }
 
-.project-page-title {
+.page-title {
   font-family: QuaverSans;
   font-size: 40px;
   text-decoration: underline;
@@ -168,30 +168,32 @@ a:hover {
   font-size: 20px; }
 
 .slides {
-  background-color: white; }
+  background-color: white;
+  width: 50%;
+  margin-top: 10px; }
 
 .picture {
   max-width: 500px;
-  max-height: 400px;
   height: auto;
+  width: 80%;
   text-align: center;
   display: block;
   margin: auto;
   padding-bottom: 15px;
   padding-top: 15px; }
 
-.pictureCaption {
+.picture-caption {
   letter-spacing: 2px;
   font-size: 20px;
   text-align: center;
   /*background-color: $darkCanvas;*/
   padding-top: 5px; }
 
-.nextRandom {
+.next-random {
   float: right;
   margin-right: 5px; }
 
-.nextRandom:hover {
+.next-random:hover {
   text-decoration: underline;
   cursor: pointer; }
 
@@ -214,6 +216,7 @@ a:hover {
 
 .project-images-container {
   width: auto;
+  max-width: 70%;
   overflow: hidden;
   float: right;
   max-height: 200px;
