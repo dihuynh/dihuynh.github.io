@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>	
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/logic.js"></script>
+	<title>Misc</title>
+</head>
+<body class="bg">
+	<div class="little-frames"> 
+		<a href="about.html"><img class="little-frame" src="img/picOutline.png" /></a>
+		<a href="code.html"><img class="little-frame" src="img/macOutline.png" /></a>
+		<a href="misc.html"><img class="little-frame active" src="img/outdoorOutline.png" /></a>
+	</div>
+	<div class="page-title">
+		Miscellaneous 
+	</div>
+	<div class="about-panel slides" ng-app ng-controller="SlidesController">
+		<img class="picture" ng-src="{{pickRandom.imgLink}}" /> 
+		<div class="picture-caption"> 
+			{{ pickRandom.description }}		
+			<span class="next-random" id="nextButton"> Next </span>
+		</div>
+	</div>
+</body>
+</html>

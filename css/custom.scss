@@ -1,0 +1,296 @@
+
+@font-face {
+	font-family: Desdemona; 
+	src: url('../fonts/desdemon.ttf');
+}
+
+@font-face {
+	font-family: QuaverSerif;
+	src: url('../fonts/QuaverSerif.otf');
+}
+
+@font-face {
+	font-family: QuaverSans;
+	src: url('../fonts/QuaverSans.otf');
+}
+
+@font-face {
+	font-family: Tahoma;
+	src: url('../fonts/Tahoma\ Bold.ttf');
+}
+
+$light-canvas: white;
+$darkCanvas: #e0e0e0;
+$opposite-object-bg: #ffb3cf;
+$object-background: #ade1eb;
+$border: 10px;
+$textColor: #2f2f2f;
+$project-tile-main-color: #e1ebad;
+
+body, html{
+	font-family: QuaverSerif; 
+	color: $textColor;
+	height: 100%;
+	background-color: $light-canvas;
+	/*background: -webkit-linear-gradient(bottom, $darkCanvas, $darkCanvas 50%, $light-canvas 50%, $light-canvas);	*/
+}
+
+.bg {
+	background: url("../img/bg.png") repeat center center;
+	height:100%;
+}
+
+a {
+	color:black;
+}
+
+a:hover {
+	color:black;
+	text-decoration: underline;
+
+}
+.greeting {
+	font-size: 65px;
+	padding-top: 10%;
+	text-align: center;
+	font-family: Desdemona; 
+}
+
+.frame {
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	width: 200px;
+	margin-right: 10px;
+	height: 210px;
+	background-color: $object-background;
+}
+
+.frame-pic {
+	width: auto;
+	max-height: 200px;	
+	max-width: 180px;
+}
+
+.frame-pic:hover{
+	cursor: pointer;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.col-centered {
+	display: inline-block;
+	float: none;
+}
+
+.little-frames {
+	margin-top: 8px;
+	background-color: $light-canvas;
+	padding: 3px;
+	padding-top: 7px;
+	padding-left: 7px;
+	width: 180px;
+	height: 65px;
+	border-radius: 5px;
+}
+
+.little-frame {
+	max-width: 50px;
+	max-height: 50px;
+	margin-right:3px;
+	border-radius: 5px;
+	/*border-style: solid;
+	border-color: white;
+	border-width: 1px;*/
+	background-color: $object-background;
+}
+
+.little-frame.active {
+	background-color: $light-canvas;
+}
+
+.little-frame-pic {
+	max-width: 350px;
+	max-height: 350px;
+	float: left;
+}
+
+.about-panel {
+	background-color: white;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	margin-top: 2em;
+	font-family: QuaverSans;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+.project-panel {
+	height: auto;
+}
+
+.page-title{
+	font-family: QuaverSans;
+	font-size: 40px;
+	text-decoration: underline;
+	margin-right: 5%;
+	display: block;
+	text-align: right;
+}
+
+.aboutText {
+	padding: 25px;
+	margin-right: 10px;
+	height: auto;
+}
+
+.sayhi,
+.sayhi:hover {
+	font-family: QuaverSans; 
+	font-size: 40px;
+	color: white;
+	background-color: transparent;
+	border-width: 0px;
+}
+
+.next-arrow {
+	float: right;
+	background-color: $opposite-object-bg;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-top: 25%;
+	margin-right: 3%;
+}
+
+.next-arrow:hover{
+	cursor: pointer;
+}
+
+.stalk-text {
+	float: right;
+	vertical-align: middle;
+}
+
+#social-media{
+	display: none;
+	background-color: $object-background;
+	padding: 10px;
+	width: auto;
+	border-radius: $border;
+	/*display: inline-block; */
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+
+.stalker-icons {
+	height: 80px;
+	margin-right: 7px;
+	margin-bottom: 5px;
+	border-style: dotted;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+.title {
+	font-family: QuaverSans;
+	font-size:20px;
+}
+
+.slides {
+	background-color: white;
+	width: 50%;
+	margin-top: 10px;
+}
+
+.picture {
+	max-width: 400px;
+	height: auto;
+    width: 80%;    
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.picture-caption {
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: center;
+	/*background-color: $darkCanvas;*/
+	padding-top: 5px;
+}
+
+.next-random {
+	float: right;
+	margin-right: 5px;
+}
+
+.next-random:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.project-container {
+	height: auto;
+	min-height: 250px;
+    width: 80%;
+	margin: auto;
+	display: block;
+	background-color: $project-tile-main-color;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	padding: 15px;
+    position: relative;
+}
+
+.project-technology {
+	margin-right: 10px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 10px;
+    font-size: 20px;
+}
+
+.project-description {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.project-images-container {
+	width: auto;
+    max-width: 70%;
+	overflow: hidden;
+	float: right;
+	max-height: 200px;
+    min-height: 200px;
+	height: auto;
+}
+
+.project-images-container img{
+	max-width: 150px;
+	width: auto;
+	margin-right: 10px;
+}
+.project-title {
+	font-family: Tahoma;
+	font-size: 45px;
+	letter-spacing: 8px;
+	color: black;
+	opacity: .35;
+    position: absolute;
+    bottom: 0;
+}

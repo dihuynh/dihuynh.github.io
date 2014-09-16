@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>	
+	<script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/logic.js"></script>
+    <title>Portfolio</title>
+</head>
+<body class="bg">	
+	<div class="little-frames"> 
+		<a href="about.html"><img class="little-frame " src="img/picOutline.png" /></a>
+		<a href="code.html"><img class="little-frame active" src="img/macOutline.png" /></a>
+		<a href="misc.html"><img class="little-frame " src="img/outdoorOutline.png" /></a>
+	</div>
+	<div class="page-title">
+		Projects
+    </div>
+
+    <div ng-app ng-controller="ProjectsController">
+        <div class="project-container" ng-repeat="project in projects">
+            <div class="project-images-container" ng-repeat="image in project.images">
+                <span class="project-image">
+                    <img ng-src="{{image}}" />  
+                </span>
+            </div>
+            <div class="project-description">
+                {{project.description}}
+            </div>
+            <br /> Technology used: <br /> 
+            <span class="project-technology" ng-repeat="tech in project.technology">
+                {{tech}} 
+            </span>
+
+            <div class="project-title">
+                {{project.title}}
+            </div>
+
+        </div> 
+    </div>
+
+</body>
+</html>
