@@ -8,8 +8,8 @@
   font-family: QuaverSans;
   src: url("../fonts/QuaverSans.otf"); }
 @font-face {
-  font-family: Poplar;
-  src: url("../fonts/PoplarStd.otf"); }
+  font-family: Tahoma;
+  src: url("../fonts/Tahoma\ Bold.ttf"); }
 body, html {
   font-family: QuaverSerif;
   color: #2f2f2f;
@@ -173,7 +173,7 @@ a:hover {
   margin-top: 10px; }
 
 .picture {
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   width: 80%;
   text-align: center;
@@ -206,7 +206,8 @@ a:hover {
   background-color: #e1ebad;
   border-radius: 15px;
   margin-bottom: 10px;
-  padding: 15px; }
+  padding: 15px;
+  position: relative; }
 
 .project-technology {
   margin-right: 10px;
@@ -234,8 +235,10 @@ a:hover {
   margin-right: 10px; }
 
 .project-title {
-  font-family: Poplar;
-  font-size: 40px;
+  font-family: Tahoma;
+  font-size: 45px;
   letter-spacing: 8px;
-  color: gray;
-  opacity: .5; }
+  color: black;
+  opacity: .35;
+  position: absolute;
+  bottom: 0; }
